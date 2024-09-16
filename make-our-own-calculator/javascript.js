@@ -1,0 +1,12 @@
+var num1=prompt("Enter First Number : ");
+var num2=prompt("Enter Second Number : ");
+document.write("First Number : "+num1);
+document.write("<br>Second Number : "+num2);
+num1=parseInt(num1,10);
+num2=parseInt(num2,10);
+var sum=num1+num2,sub=num1-num2;
+document.write("<br>Addition : "+sum+"<br>");
+document.write("Subtruction : "+sub+"<br>");
+document.write("Multiplication : "+num1*num2+"<br>");
+document.write("Division : "+num1/num2+"<br>");
+document.write("Remainder : "+num1%num2+"<br>");
