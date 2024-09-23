@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+.imge{
+    position: relative;
+    top: 20%;
+    left: 25%;
+    
+}
+img{
+    border-radius: 10%;
+}
+button{
+    text-align: center;
+    background-color: rgb(201, 52, 52);
+    color: white;
+    border-radius: 20%;
+   padding: 15px;
+   text-size-adjust: 30px;
+   width: 150px;  /* Increase button width */
+   height: 80px; 
+   font-size: 30px;
+   font-weight: bold;
+
+}
+button:hover{
+    background-color: beige;
+    color: black;
+    /* outline-width: 5px; */
+    outline-color: blue;
+}
+.caption{
+    position: absolute;
+    top: 13%;
+    left: 43%;
+    background-color: rgba(40, 40, 40, 0.1);
+    border-radius: 10px;
+    color: gray;
+    /* background-color: transparent; */
+    
+}
+.caption:hover{
+    transform: scaleX(1.5);
+    background-color: aqua;
+    color: magenta;
+    padding: 5px;
+    /* transform: rotate3d(1, 1, 1, 360deg); */
+    
+}
+
