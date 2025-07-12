@@ -1,0 +1,42 @@
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+.add_to_bag{
+    background-color: lightgreen;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.add_to_bag:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.move_to_wishlist {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 30px;
+    transition: 0.3s;
+}
+.move_to_wishlist:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.add_double_sale {
+    background-color: lightgreen;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.add_double_sale:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
